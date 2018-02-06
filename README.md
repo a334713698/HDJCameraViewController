@@ -44,9 +44,9 @@ Use CocoaPods
 
 ### 可能出现的问题及解决办法
 编译报错：Cannot synthesize weak property because the current deployment target does not support weak references
-解决办法一（推荐）：集成项目后，可能需要手动更新设置（处理系统报警告：⚠️validate project settings）
-解决办法二：将Build Settings --> iOS Deployment Target 改为 iOS 9.0（支持的最低iOS版本）
-解决办法三：手动导入支持文件
+* 解决办法一（推荐）：集成项目后，可能需要手动更新设置（处理系统报警告：⚠️validate project settings）
+* 解决办法二：将Build Settings --> iOS Deployment Target 改为 iOS 9.0（支持的最低iOS版本）
+* 解决办法三：手动导入支持文件
 
 
 ### 注意事项
