@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62050A920293E6300D39228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62050A820293E6300D39228 /* AppDelegate.m */; };
+		B62050AC20293E6300D39228 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62050AB20293E6300D39228 /* ViewController.m */; };
+		B62050AF20293E6300D39228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62050AD20293E6300D39228 /* Main.storyboard */; };
+		B62050B120293E6300D39228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62050B020293E6300D39228 /* Assets.xcassets */; };
+		B62050B420293E6300D39228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62050B220293E6300D39228 /* LaunchScreen.storyboard */; };
+		B62050B720293E6400D39228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62050B620293E6400D39228 /* main.m */; };
+		B62050DE20293ED900D39228 /* HDJPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B62050BF20293ED900D39228 /* HDJPlayer.m */; };
+		B62050DF20293ED900D39228 /* HDJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62050C120293ED900D39228 /* HDJCameraViewController.m */; };
+		B62050E020293ED900D39228 /* HDJProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62050C320293ED900D39228 /* HDJProgressView.m */; };
+		B62050E120293ED900D39228 /* icon_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050C720293ED900D39228 /* icon_cancel@2x.png */; };
+		B62050E220293ED900D39228 /* icon_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050C820293ED900D39228 /* icon_cancel.png */; };
+		B62050E320293ED900D39228 /* icon_confirm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050C920293ED900D39228 /* icon_confirm@2x.png */; };
+		B62050E420293ED900D39228 /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050CA20293ED900D39228 /* icon_back.png */; };
+		B62050E520293ED900D39228 /* icon_confirm@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050CB20293ED900D39228 /* icon_confirm@3x.png */; };
+		B62050E620293ED900D39228 /* icon_confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050CC20293ED900D39228 /* icon_confirm.png */; };
+		B62050E720293ED900D39228 /* icon_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050CD20293ED900D39228 /* icon_circle.png */; };
+		B62050E820293ED900D39228 /* icon_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050CE20293ED900D39228 /* icon_cancel@3x.png */; };
+		B62050E920293ED900D39228 /* icon_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050CF20293ED900D39228 /* icon_circle@3x.png */; };
+		B62050EA20293ED900D39228 /* icon_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D020293ED900D39228 /* icon_camera@2x.png */; };
+		B62050EB20293ED900D39228 /* progressMaskBGColor.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D120293ED900D39228 /* progressMaskBGColor.png */; };
+		B62050EC20293ED900D39228 /* icon_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D220293ED900D39228 /* icon_camera@3x.png */; };
+		B62050ED20293ED900D39228 /* icon_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D320293ED900D39228 /* icon_circle@2x.png */; };
+		B62050EE20293ED900D39228 /* icon_focusing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D420293ED900D39228 /* icon_focusing@3x.png */; };
+		B62050EF20293ED900D39228 /* progressMaskBGColor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D520293ED900D39228 /* progressMaskBGColor@3x.png */; };
+		B62050F020293ED900D39228 /* icon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D620293ED900D39228 /* icon_back@3x.png */; };
+		B62050F120293ED900D39228 /* icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D720293ED900D39228 /* icon_back@2x.png */; };
+		B62050F220293ED900D39228 /* progressMaskBGColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D820293ED900D39228 /* progressMaskBGColor@2x.png */; };
+		B62050F320293ED900D39228 /* icon_focusing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050D920293ED900D39228 /* icon_focusing@2x.png */; };
+		B62050F420293ED900D39228 /* icon_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050DA20293ED900D39228 /* icon_camera.png */; };
+		B62050F520293ED900D39228 /* icon_focusing.png in Resources */ = {isa = PBXBuildFile; fileRef = B62050DB20293ED900D39228 /* icon_focusing.png */; };
+		B62050F920293F4B00D39228 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62050F720293EFA00D39228 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B62050A420293E6300D39228 /* HDJCameraViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDJCameraViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62050A720293E6300D39228 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B62050A820293E6300D39228 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B62050AA20293E6300D39228 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B62050AB20293E6300D39228 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B62050AE20293E6300D39228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B62050B020293E6300D39228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B62050B320293E6300D39228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B62050B520293E6300D39228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62050B620293E6400D39228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B62050BF20293ED900D39228 /* HDJPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDJPlayer.m; sourceTree = "<group>"; };
+		B62050C020293ED900D39228 /* HDJPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDJPlayer.h; sourceTree = "<group>"; };
+		B62050C120293ED900D39228 /* HDJCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDJCameraViewController.m; sourceTree = "<group>"; };
+		B62050C320293ED900D39228 /* HDJProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDJProgressView.m; sourceTree = "<group>"; };
+		B62050C420293ED900D39228 /* HDJProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDJProgressView.h; sourceTree = "<group>"; };
+		B62050C720293ED900D39228 /* icon_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cancel@2x.png"; sourceTree = "<group>"; };
+		B62050C820293ED900D39228 /* icon_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cancel.png; sourceTree = "<group>"; };
+		B62050C920293ED900D39228 /* icon_confirm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_confirm@2x.png"; sourceTree = "<group>"; };
+		B62050CA20293ED900D39228 /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		B62050CB20293ED900D39228 /* icon_confirm@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_confirm@3x.png"; sourceTree = "<group>"; };
+		B62050CC20293ED900D39228 /* icon_confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_confirm.png; sourceTree = "<group>"; };
+		B62050CD20293ED900D39228 /* icon_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_circle.png; sourceTree = "<group>"; };
+		B62050CE20293ED900D39228 /* icon_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cancel@3x.png"; sourceTree = "<group>"; };
+		B62050CF20293ED900D39228 /* icon_circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_circle@3x.png"; sourceTree = "<group>"; };
+		B62050D020293ED900D39228 /* icon_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_camera@2x.png"; sourceTree = "<group>"; };
+		B62050D120293ED900D39228 /* progressMaskBGColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressMaskBGColor.png; sourceTree = "<group>"; };
+		B62050D220293ED900D39228 /* icon_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_camera@3x.png"; sourceTree = "<group>"; };
+		B62050D320293ED900D39228 /* icon_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_circle@2x.png"; sourceTree = "<group>"; };
+		B62050D420293ED900D39228 /* icon_focusing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_focusing@3x.png"; sourceTree = "<group>"; };
+		B62050D520293ED900D39228 /* progressMaskBGColor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressMaskBGColor@3x.png"; sourceTree = "<group>"; };
+		B62050D620293ED900D39228 /* icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@3x.png"; sourceTree = "<group>"; };
+		B62050D720293ED900D39228 /* icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@2x.png"; sourceTree = "<group>"; };
+		B62050D820293ED900D39228 /* progressMaskBGColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressMaskBGColor@2x.png"; sourceTree = "<group>"; };
+		B62050D920293ED900D39228 /* icon_focusing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_focusing@2x.png"; sourceTree = "<group>"; };
+		B62050DA20293ED900D39228 /* icon_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_camera.png; sourceTree = "<group>"; };
+		B62050DB20293ED900D39228 /* icon_focusing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_focusing.png; sourceTree = "<group>"; };
+		B62050DC20293ED900D39228 /* HDJConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDJConfig.h; sourceTree = "<group>"; };
+		B62050DD20293ED900D39228 /* HDJCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDJCameraViewController.h; sourceTree = "<group>"; };
+		B62050F720293EFA00D39228 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62050A120293E6300D39228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62050F920293F4B00D39228 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B620509B20293E6300D39228 = {
+			isa = PBXGroup;
+			children = (
+				B62050A620293E6300D39228 /* HDJCameraViewControllerExample */,
+				B62050A520293E6300D39228 /* Products */,
+				B62050F620293EF900D39228 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B62050A520293E6300D39228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62050A420293E6300D39228 /* HDJCameraViewControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62050A620293E6300D39228 /* HDJCameraViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				B62050BD20293ED800D39228 /* HDJCameraViewController */,
+				B62050A720293E6300D39228 /* AppDelegate.h */,
+				B62050A820293E6300D39228 /* AppDelegate.m */,
+				B62050AA20293E6300D39228 /* ViewController.h */,
+				B62050AB20293E6300D39228 /* ViewController.m */,
+				B62050AD20293E6300D39228 /* Main.storyboard */,
+				B62050B020293E6300D39228 /* Assets.xcassets */,
+				B62050B220293E6300D39228 /* LaunchScreen.storyboard */,
+				B62050B520293E6300D39228 /* Info.plist */,
+				B62050B620293E6400D39228 /* main.m */,
+			);
+			path = HDJCameraViewControllerExample;
+			sourceTree = "<group>";
+		};
+		B62050BD20293ED800D39228 /* HDJCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B62050BE20293ED900D39228 /* HDJPlayer */,
+				B62050C220293ED900D39228 /* HDJProgressView */,
+				B62050DD20293ED900D39228 /* HDJCameraViewController.h */,
+				B62050C120293ED900D39228 /* HDJCameraViewController.m */,
+				B62050C520293ED900D39228 /* Supporting Files */,
+			);
+			path = HDJCameraViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		B62050BE20293ED900D39228 /* HDJPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B62050C020293ED900D39228 /* HDJPlayer.h */,
+				B62050BF20293ED900D39228 /* HDJPlayer.m */,
+			);
+			path = HDJPlayer;
+			sourceTree = "<group>";
+		};
+		B62050C220293ED900D39228 /* HDJProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				B62050C420293ED900D39228 /* HDJProgressView.h */,
+				B62050C320293ED900D39228 /* HDJProgressView.m */,
+			);
+			path = HDJProgressView;
+			sourceTree = "<group>";
+		};
+		B62050C520293ED900D39228 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B62050C620293ED900D39228 /* images */,
+				B62050DC20293ED900D39228 /* HDJConfig.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B62050C620293ED900D39228 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B62050C720293ED900D39228 /* icon_cancel@2x.png */,
+				B62050C820293ED900D39228 /* icon_cancel.png */,
+				B62050C920293ED900D39228 /* icon_confirm@2x.png */,
+				B62050CA20293ED900D39228 /* icon_back.png */,
+				B62050CB20293ED900D39228 /* icon_confirm@3x.png */,
+				B62050CC20293ED900D39228 /* icon_confirm.png */,
+				B62050CD20293ED900D39228 /* icon_circle.png */,
+				B62050CE20293ED900D39228 /* icon_cancel@3x.png */,
+				B62050CF20293ED900D39228 /* icon_circle@3x.png */,
+				B62050D020293ED900D39228 /* icon_camera@2x.png */,
+				B62050D120293ED900D39228 /* progressMaskBGColor.png */,
+				B62050D220293ED900D39228 /* icon_camera@3x.png */,
+				B62050D320293ED900D39228 /* icon_circle@2x.png */,
+				B62050D420293ED900D39228 /* icon_focusing@3x.png */,
+				B62050D520293ED900D39228 /* progressMaskBGColor@3x.png */,
+				B62050D620293ED900D39228 /* icon_back@3x.png */,
+				B62050D720293ED900D39228 /* icon_back@2x.png */,
+				B62050D820293ED900D39228 /* progressMaskBGColor@2x.png */,
+				B62050D920293ED900D39228 /* icon_focusing@2x.png */,
+				B62050DA20293ED900D39228 /* icon_camera.png */,
+				B62050DB20293ED900D39228 /* icon_focusing.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B62050F620293EF900D39228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62050F720293EFA00D39228 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62050A320293E6300D39228 /* HDJCameraViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62050BA20293E6400D39228 /* Build configuration list for PBXNativeTarget "HDJCameraViewControllerExample" */;
+			buildPhases = (
+				B62050A020293E6300D39228 /* Sources */,
+				B62050A120293E6300D39228 /* Frameworks */,
+				B62050A220293E6300D39228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDJCameraViewControllerExample;
+			productName = HDJCameraViewControllerExample;
+			productReference = B62050A420293E6300D39228 /* HDJCameraViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B620509C20293E6300D39228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "洪冬介";
+				TargetAttributes = {
+					B62050A320293E6300D39228 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B620509F20293E6300D39228 /* Build configuration list for PBXProject "HDJCameraViewControllerExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B620509B20293E6300D39228;
+			productRefGroup = B62050A520293E6300D39228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62050A320293E6300D39228 /* HDJCameraViewControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62050A220293E6300D39228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62050E420293ED900D39228 /* icon_back.png in Resources */,
+				B62050F220293ED900D39228 /* progressMaskBGColor@2x.png in Resources */,
+				B62050EF20293ED900D39228 /* progressMaskBGColor@3x.png in Resources */,
+				B62050E620293ED900D39228 /* icon_confirm.png in Resources */,
+				B62050E720293ED900D39228 /* icon_circle.png in Resources */,
+				B62050F420293ED900D39228 /* icon_camera.png in Resources */,
+				B62050EE20293ED900D39228 /* icon_focusing@3x.png in Resources */,
+				B62050B420293E6300D39228 /* LaunchScreen.storyboard in Resources */,
+				B62050E120293ED900D39228 /* icon_cancel@2x.png in Resources */,
+				B62050E220293ED900D39228 /* icon_cancel.png in Resources */,
+				B62050F520293ED900D39228 /* icon_focusing.png in Resources */,
+				B62050E820293ED900D39228 /* icon_cancel@3x.png in Resources */,
+				B62050B120293E6300D39228 /* Assets.xcassets in Resources */,
+				B62050E320293ED900D39228 /* icon_confirm@2x.png in Resources */,
+				B62050ED20293ED900D39228 /* icon_circle@2x.png in Resources */,
+				B62050EB20293ED900D39228 /* progressMaskBGColor.png in Resources */,
+				B62050EA20293ED900D39228 /* icon_camera@2x.png in Resources */,
+				B62050F320293ED900D39228 /* icon_focusing@2x.png in Resources */,
+				B62050F120293ED900D39228 /* icon_back@2x.png in Resources */,
+				B62050AF20293E6300D39228 /* Main.storyboard in Resources */,
+				B62050E920293ED900D39228 /* icon_circle@3x.png in Resources */,
+				B62050E520293ED900D39228 /* icon_confirm@3x.png in Resources */,
+				B62050F020293ED900D39228 /* icon_back@3x.png in Resources */,
+				B62050EC20293ED900D39228 /* icon_camera@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62050A020293E6300D39228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62050E020293ED900D39228 /* HDJProgressView.m in Sources */,
+				B62050AC20293E6300D39228 /* ViewController.m in Sources */,
+				B62050DE20293ED900D39228 /* HDJPlayer.m in Sources */,
+				B62050DF20293ED900D39228 /* HDJCameraViewController.m in Sources */,
+				B62050B720293E6400D39228 /* main.m in Sources */,
+				B62050A920293E6300D39228 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B62050AD20293E6300D39228 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62050AE20293E6300D39228 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B62050B220293E6300D39228 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62050B320293E6300D39228 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B62050B820293E6400D39228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B62050B920293E6400D39228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62050BB20293E6400D39228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHW6X6T397;
+				INFOPLIST_FILE = HDJCameraViewControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongdongjie.CameraViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B62050BC20293E6400D39228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHW6X6T397;
+				INFOPLIST_FILE = HDJCameraViewControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongdongjie.CameraViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B620509F20293E6300D39228 /* Build configuration list for PBXProject "HDJCameraViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62050B820293E6400D39228 /* Debug */,
+				B62050B920293E6400D39228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62050BA20293E6400D39228 /* Build configuration list for PBXNativeTarget "HDJCameraViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62050BB20293E6400D39228 /* Debug */,
+				B62050BC20293E6400D39228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B620509C20293E6300D39228 /* Project object */;
+}
