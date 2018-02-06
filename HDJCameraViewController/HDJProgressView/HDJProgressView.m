@@ -25,9 +25,7 @@
 
 @end
 
-@implementation HDJProgressView{
-}
-
+@implementation HDJProgressView
 
 - (void)dealloc{
     NSLog(@"HDJProgressView 销毁");
