@@ -36,6 +36,19 @@
 }
 ```
 
+### 安装
+Use CocoaPods
+```objc
+    pod 'HDJCameraViewController'
+```
+
+### 可能出现的问题及解决办法
+```objc
+    编译报错：Cannot synthesize weak property because the current deployment target does not support weak references
+    解决办法一：将Build Settings --> iOS Deployment Target 改为 iOS 9.0（支持的最低iOS版本）
+    解决办法二：手动导入支持文件
+```
+
 ### 注意事项
 需要在info.plist文件中设置用户隐私访问权限
 * NSPhotoLibraryUsageDescription : 相册权限
