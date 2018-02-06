@@ -10,7 +10,7 @@ s.license      = "MIT"
 s.author       = { "洪冬介" => "hongdongjie334@gmail.com" }
 s.social_media_url   = "https://weibo.com/1871979715"
 s.source       = { :git => "https://github.com/a334713698/HDJCameraViewController.git", :tag => s.version }
-s.source_files  = "HDJCameraViewController/*","HDJCameraViewController/**/*","HDJCameraViewController/**/*"
+s.source_files  = "HDJCameraViewController/*","HDJCameraViewController/**/*"
 s.requires_arc = true
 s.platform = "ios"
 s.framework = "AVFoundation"
