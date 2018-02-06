@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "HDJCameraViewController"
-s.version      = "1.0.5"
+s.version      = "1.0.2"
 s.ios.deployment_target = "9.0"
 s.summary      = "HDJCameraViewController —— 仿微信相机"
 s.homepage     = "https://github.com/a334713698/HDJCameraViewController"
