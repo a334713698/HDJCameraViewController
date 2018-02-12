@@ -54,6 +54,7 @@ Use CocoaPods
 * NSPhotoLibraryUsageDescription : 相册权限
 * NSCameraUsageDescription         : 相机权限
 * NSMicrophoneUsageDescription  : 麦克风权限
+* NSPhotoLibraryAddUsageDescription : 媒体库添加权限
 
 ## 参考项目
 * [KJCamera](https://github.com/hkjin/KJCamera)
